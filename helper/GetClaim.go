@@ -2,10 +2,10 @@ package helper
 
 import (
 	"errors"
+	"github.com/Infinitare/types-template/cookies"
+	"github.com/Infinitare/types-template/secrets"
 	"github.com/golang-jwt/jwt/v5"
 	"net/http"
-	"types-template/cookies"
-	"types-template/secrets"
 )
 
 func GetClaim(r *http.Request, key string) (interface{}, error) {
