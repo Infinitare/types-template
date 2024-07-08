@@ -1,4 +1,4 @@
-module types-template
+module github.com/Infinitare/types-template
 
 go 1.22
 
