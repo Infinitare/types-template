@@ -1,9 +1,9 @@
 package requests
 
 import (
+	"github.com/Infinitare/types-template/console"
 	"github.com/pkg/errors"
 	"net/http"
-	"types-template/console"
 )
 
 func HandlePanic(w http.ResponseWriter, traceID, spanID uint64) {

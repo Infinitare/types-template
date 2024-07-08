@@ -2,9 +2,9 @@ package responses
 
 import (
 	"encoding/json"
+	"github.com/Infinitare/types-template/console"
+	"github.com/Infinitare/types-template/metrics"
 	"net/http"
-	"types-template/console"
-	"types-template/metrics"
 )
 
 func SendJson(data interface{}, statusCode int, w http.ResponseWriter, r *http.Request) {

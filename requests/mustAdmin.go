@@ -3,11 +3,11 @@ package requests
 import (
 	"context"
 	"errors"
+	"github.com/Infinitare/types-template/console"
+	"github.com/Infinitare/types-template/helper"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"net/http"
 	"os"
-	"types-template/console"
-	"types-template/helper"
 )
 
 func MustAdmin(handle func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

@@ -3,10 +3,10 @@ package metrics
 import (
 	"bytes"
 	"errors"
+	"github.com/Infinitare/types-template/console"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"io"
 	"net/http"
-	"types-template/console"
 )
 
 func Request(r *http.Request) {

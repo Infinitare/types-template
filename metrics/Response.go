@@ -3,9 +3,9 @@ package metrics
 import (
 	"encoding/json"
 	"errors"
+	"github.com/Infinitare/types-template/console"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"net/http"
-	"types-template/console"
 )
 
 func Response(r *http.Request, data interface{}) {

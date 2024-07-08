@@ -1,10 +1,10 @@
 package requests
 
 import (
+	"github.com/Infinitare/types-template/metrics"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"net/http"
 	"strings"
-	"types-template/metrics"
 )
 
 func HandleCORS(h http.Handler) http.Handler {
