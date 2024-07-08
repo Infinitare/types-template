@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/Infinitare/mannaq-types/helper"
+	"github.com/Infinitare/types-template/helper"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 	"net/http"
 )
