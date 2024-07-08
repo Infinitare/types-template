@@ -5,3 +5,4 @@
    2. run `go env -w GOPRIVATE=github.com/COMPANYNAME` -> COMPANYNAME is case-sensitive & make sure the go import module path is case-sensitive too
    3. after you upload this to your own repository make s ure to change all imports to the correct module path
       1. global replace `"types-template`
+      2. and replace in go.mod
