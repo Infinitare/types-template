@@ -9,7 +9,7 @@ import (
 
 func HandleCORS(h http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if strings.HasSuffix(r.URL.String(), "BYsDXTr0gEBWK35kQf0i") {
+		if strings.HasSuffix(r.URL.String(), "datadog/ping") {
 			w.WriteHeader(http.StatusOK)
 			return
 		}
